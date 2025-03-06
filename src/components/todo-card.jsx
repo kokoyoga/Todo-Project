@@ -37,7 +37,7 @@ function TodoCard() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 h-screen">
+    <div className="flex flex-col items-center justify-center ">
       <div className="flex flex-col md:flex-row gap-4 items-center justify-center w-full max-w-2xl">
         <Input
           value={inputValue}
